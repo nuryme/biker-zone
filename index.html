@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biker Zone</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+
+    <!-- tailwind custom color -->
+  <link rel="stylesheet" crossorigin href="assets/index-Cr4JySn-.css">
+</head>
+
+<body>
+    <header class="lg:px-44 pt-8 px-4">
+        <!-- navbar -->
+        <nav>
+            <div class="navbar bg-base-100 justify-between">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <ul class="menu menu-horizontal px-1  gap-9">
+                                <li class="text-base font-semibold"><a>Home</a></li>
+                                <li class="text-base font-semibold"><a>Shop</a></li>
+                                <li class="text-base font-semibold"><a>News</a></li>
+                                <li class="text-base font-semibold"><a>Contact</a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <h1 class="text-4xl font-bold">Bike Dekho</h1>
+                </div>
+                <div class="space-x-9">
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1  gap-9">
+                            <li class="text-base font-semibold"><a>Home</a></li>
+                            <li class="text-base font-semibold"><a>Shop</a></li>
+                            <li class="text-base font-semibold"><a>News</a></li>
+                            <li class="text-base font-semibold"><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end">
+                        <a class="btn btn-custom">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- banner -->
+        <div class="carousel w-full bg-[#E76F511A] mt-12 lg:h-[800px]">
+            <div id="slide1" class="carousel-item relative w-full">
+                <div class="flex flex-col lg:flex-row items-center lg:w-full">
+                    <div class="flex-1 pl-4 lg:pl-32">
+                        <div class="lg:w-[600px] mt-7 lg:mt-0 w-auto">
+                            <h1 class="font-bold md:text-6xl text-3xl md:leading-[75px]">Ride-on R15 V4 with Smile</h1>
+                            <p class="mb-8 mt-5 font-light text-base lg:w-[440px] leading-7">Amet minim mollit non
+                                deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+                                velit mollit.</p>
+                            <button class="btn-custom">Purchase</button>
+                        </div>
+                    </div>
+                    <div class="flex-1 lg:pr-32">
+                        <img src="assets/bike1-D4-N4Amb.png" class="w-full" />
+                    </div>
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide4" class="btn btn-circle bg-transparent text-2xl">❮</a>
+                    <a href="#slide2" class="btn btn-circle bg-transparent text-2xl">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <div class="lg:flex items-center w-full">
+                    <div class="flex-1 pl-32">
+                        <div class="w-[600px]">
+                            <h1 class="font-bold text-6xl leading-[75px]">Ride-on R15 V4 with Smile</h1>
+                            <p class="mb-8 mt-5 font-light text-base w-[440px] leading-7">Amet minim mollit non deserunt
+                                ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
+                                mollit.</p>
+                            <button class="btn-custom">Purchase</button>
+                        </div>
+                    </div>
+                    <div class="flex-1 pr-32">
+                        <img src="assets/bike2-Bxn6xa0u.png" class="w-full" />
+                    </div>
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide1" class="btn btn-circle bg-transparent text-2xl">❮</a>
+                    <a href="#slide3" class="btn btn-circle bg-transparent text-2xl">❯</a>
+                </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+                <div class="lg:flex items-center w-full">
+                    <div class="flex-1 pl-32">
+                        <div class="w-[600px]">
+                            <h1 class="font-bold text-6xl leading-[75px]">Ride-on R15 V4 with Smile</h1>
+                            <p class="mb-8 mt-5 font-light text-base w-[440px] leading-7">Amet minim mollit non deserunt
+                                ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
+                                mollit.</p>
+                            <button class="btn-custom">Purchase</button>
+                        </div>
+                    </div>
+                    <div class="flex-1 pr-32">
+                        <img src="assets/bike3-BxHl5dww.png" class="w-full" />
+                    </div>
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide2" class="btn btn-circle bg-transparent text-2xl">❮</a>
+                    <a href="#slide4" class="btn btn-circle bg-transparent text-2xl">❯</a>
+                </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+                <div class="lg:flex items-center w-full">
+                    <div class="flex-1 pl-32">
+                        <div class="w-[600px]">
+                            <h1 class="font-bold text-6xl leading-[75px]">Ride-on R15 V4 with Smile</h1>
+                            <p class="mb-8 mt-5 font-light text-base w-[440px] leading-7">Amet minim mollit non deserunt
+                                ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
+                                mollit.</p>
+                            <button class="btn-custom">Purchase</button>
+                        </div>
+                    </div>
+                    <div class="flex-1 pr-32">
+                        <img src="assets/bike4-CeZ7ccRT.png" class="w-full" />
+                    </div>
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide3" class="btn btn-circle bg-transparent text-2xl">❮</a>
+                    <a href="#slide1" class="btn btn-circle bg-transparent text-2xl">❯</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="lg:px-44 pt-8 px-4">
+        <!-- featured -->
+        <div class="mt-40">
+            <h1 class="title">Fetured Bikes In This Year</h1>
+            <p class="text-[#E76F51] font-semibold text-sm text-center">Best bike collection</p>
+            <hr class="w-14 m-auto border-t border-[#E76F51]">
+            <div class="lg:flex justify-between mt-12">
+                <img src="assets/feature-bike-CqZV_MVQ.png" alt="" class="grayscale w-[367px]">
+                <img src="assets/feature-bike-CqZV_MVQ.png" alt="" class="w-[367px]">
+                <img src="assets/feature-bike-CqZV_MVQ.png" alt="" class="grayscale w-[367px]">
+            </div>
+        </div>
+
+        <!-- latest -->
+        <div class="mt-40">
+            <h1 class="title">Latest News</h1>
+            <div class="mt-12 lg:flex justify-between space-y-5 lg:space-y-0 gap-10">
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure class="p-[1rem]">
+                        <img src="assets/latest1-ZdlKoOkx.png" class="w-full" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title mt-10 mb-3">Ducati XDIAVEL S-73</h2>
+                        <p class="font-normal text-base text-[#6C6C6C] leading-8 mb-10">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <div class="card-actions">
+                            <button class="btn btn-custom text-lg font-medium">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure class="p-[1rem]">
+                        <img src="assets/latest2-DkX-SsZK.png" class="w-full" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title mt-10 mb-3">Ducati XDIAVEL S-73</h2>
+                        <p class="font-normal text-base text-[#6C6C6C] leading-8 mb-10">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <div class="card-actions">
+                            <button class="btn btn-custom text-lg font-medium">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure class="p-[1rem]">
+                        <img src="assets/latest3-fepFIlOK.png" class="w-full" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title mt-10 mb-3">Ducati XDIAVEL S-73</h2>
+                        <p class="font-normal text-base text-[#6C6C6C] leading-8 mb-10">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <div class="card-actions">
+                            <button class="btn btn-custom text-lg font-medium">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- clients -->
+        <div class="mt-40">
+            <h1 class="title">Happy <span class="text-[#E76F51]">Clients says</span></h1>
+            <div class="mt-12 lg:flex justify-between space-y-5 lg:space-y-0 gap-16">
+                <div class="card card-compact bg-base-100 shadow-xl text-center p-10 border w-full">
+                    <img class="w-[149px] m-auto" src="assets/user-1-CNwiGjrY.png" alt="Shoes" />
+                    <div class="card-body text-center">
+                        <p class="font-normal text-base text-[#6C6C6C] leading-8 mt-7 mb-4 w-[252px] m-auto">Slate helps
+                            you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="rating m-auto space-x-3">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                checked="checked" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <p class="text-sm text-[#23A6F0] my-4">Regina Miles</p>
+                        <p class="text-sm text-[#252B42] font-semibold">Banker</p>
+                    </div>
+                </div>
+                <div class="card card-compact bg-base-100 shadow-xl text-center p-10 border w-full">
+                    <img class="w-[149px] m-auto" src="assets/user-1-CNwiGjrY.png" alt="Shoes" />
+                    <div class="card-body text-center">
+                        <p class="font-normal text-base text-[#6C6C6C] leading-8 mt-7 mb-4 w-[252px] m-auto">Slate helps
+                            you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="rating m-auto space-x-3">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                checked="checked" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <p class="text-sm text-[#23A6F0] my-4">Regina Miles</p>
+                        <p class="text-sm text-[#252B42] font-semibold">Banker</p>
+                    </div>
+                </div>
+                <div class="card card-compact bg-base-100 shadow-xl text-center p-10 border w-full">
+                    <img class="w-[149px] m-auto" src="assets/user-1-CNwiGjrY.png" alt="Shoes" />
+                    <div class="card-body text-center">
+                        <p class="font-normal text-base text-[#6C6C6C] leading-8 mt-7 mb-4 w-[252px] m-auto">Slate helps
+                            you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="rating m-auto space-x-3">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                checked="checked" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <p class="text-sm text-[#23A6F0] my-4">Regina Miles</p>
+                        <p class="text-sm text-[#252B42] font-semibold">Banker</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- questions -->
+        <div class="mt-40">
+            <h1 class="title">Frequently Asked <span class="text-[#E76F51]">Questions</span></h1>
+            <div class="mt-12  lg:flex justify-between space-y-5 lg:space-y-0">
+                <img src="assets/faq-f1PmFftZ.png" class="m-auto lg:m-0" />
+                <div class="space-y-5 w-[700px] m-auto lg:m-0">
+                    <div class="collapse collapse-arrow bg-transparent px-5 py-6 border rounded border-sky-200">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a
+                            new one?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will
+                                help you be a more focused and legally compliant bike rider. </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-transparent px-5 py-6 border rounded border-sky-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will
+                                help you be a more focused and legally compliant bike rider. </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-transparent px-5 py-6 border rounded border-sky-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will
+                                help you be a more focused and legally compliant bike rider. </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-transparent px-5 py-6 border rounded border-sky-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will
+                                help you be a more focused and legally compliant bike rider. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer bg-neutral text-neutral-content py-14 lg:px-44 px-4 md:flex justify-between mt-40">
+        <aside>
+            <div class="flex gap-7">
+                <p class="text-white text-sm font-normal">Download Now</p>
+                <p class="text-white text-sm font-normal">License</p>
+            </div>
+            <div class="flex gap-7 mt-3">
+                <p class="text-white text-sm font-normal">About</p>
+                <p class="text-white text-sm font-normal">Features</p>
+                <p class="text-white text-sm font-normal">Pricing</p>
+                <p class="text-white text-sm font-normal">Career</p>
+                <p class="text-white text-sm font-normal">Help</p>
+                <p class="text-white text-sm font-normal">Privacy Policy</p>
+            </div>
+            <p class="text-white text-sm font-normal mt-6">© 2020 bike. All rights reserved</p>
+        </aside>
+        <nav>
+            <h6 class="text-white text-lg font-medium text-[#D9DBE1]">Get the App</h6>
+            <div class="grid grid-cols-1 gap-4">
+                <a>
+                    <img src="assets/android-BCjLXe6C.png" alt="" class="h-11">
+                </a>
+                <a>
+                    <img src="data:image/png;base64,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" alt="" class="h-11">
+                </a>
+            </div>
+        </nav>
+    </footer>
+</body>
+
+</html>
